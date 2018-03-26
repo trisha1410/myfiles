@@ -1,0 +1,27 @@
+create table test;
+!connect jdbc:hive2://ec2-52-207-2-108.compute-1.amazonaws.com:10000/default;principal=hive/ec2-52-207-2-108.compute-1.amazonaws.com@SOLRS.NET;
+create table test(id int);
+use trisha_db;
+create table test(id int);
+show trisha_db;
+show databases;
+describe trisha_db;
+exit
+exit;
+show tables;
+EOF
+!connect jdbc:hive2://ec2-52-207-2-108.compute-1.amazonaws.com:10000/default;principal=hive/ec2-52-207-2-108.compute-1.amazonaws.com@SOLRS.NET;
+exit;
+quit;
+quit
+show tables;
+!connect jdbc:hive2://ec2-52-207-2-108.compute-1.amazonaws.com:10000/trisha_db;principal=hive/ec2-52-207-2-108.compute-1.amazonaws.com@SOLRS.NET;  
+use trisha_db;
+show tables;
+select * from trisha_db.orders limit 10;
+show tables;
+show tables
+show tables;
+show databases;
+use trisha_db;
+show tables;

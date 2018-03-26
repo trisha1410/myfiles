@@ -1,0 +1,13 @@
+export HOSTNAME=52.207.2.108
+export USERNAME=temp
+export PASS=temp
+export HIVE_DB=trisha_db
+export MYSQL_DB=AdventureWorks2014
+export JDBC=jdbc
+export MYSQL=mysql
+export DIR_PATH=/user/trisha/project
+export SCOOP_FILE=part-m-00000
+export PARALLELISM=12
+export QUEUE=default
+export BASE_DIR=/tmp/ScoopTable1
+export JAVA_DIR=/tmp/doSqoopTable-`id -u`-tmp
